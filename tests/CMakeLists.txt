@@ -5,6 +5,7 @@ add_executable(smoke_test smoke_test.cpp)
 target_link_libraries(smoke_test PRIVATE GTest::gtest_main spdlog::spdlog)
 gtest_discover_tests(smoke_test DISCOVERY_MODE PRE_TEST)
 
+add_subdirectory(common)
 add_subdirectory(storage)
 add_subdirectory(buffer)
 add_subdirectory(index)

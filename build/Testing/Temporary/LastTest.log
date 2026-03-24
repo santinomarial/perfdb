@@ -1,0 +1,31 @@
+Start testing: Mar 24 16:14 EDT
+----------------------------------------------------------
+1/1 Testing: SmokeTest.BuildWorks
+1/1 Test: SmokeTest.BuildWorks
+Command: "/Users/santinomarial/perfdb/build/tests/smoke_test" "--gtest_filter=SmokeTest.BuildWorks" "--gtest_also_run_disabled_tests"
+Directory: /Users/santinomarial/perfdb/build/tests
+"SmokeTest.BuildWorks" start time: Mar 24 16:14 EDT
+Output:
+----------------------------------------------------------
+Running main() from /Users/santinomarial/perfdb/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = SmokeTest.BuildWorks
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SmokeTest
+[ RUN      ] SmokeTest.BuildWorks
+[2026-03-24 16:14:59.541] [info] vexdb build system working
+[       OK ] SmokeTest.BuildWorks (4 ms)
+[----------] 1 test from SmokeTest (4 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SmokeTest.BuildWorks" end time: Mar 24 16:14 EDT
+"SmokeTest.BuildWorks" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 24 16:14 EDT

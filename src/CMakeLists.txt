@@ -1,0 +1,7 @@
+add_subdirectory(common)
+add_subdirectory(storage)
+add_subdirectory(buffer)
+add_subdirectory(index)
+add_subdirectory(log)
+add_subdirectory(txn)
+add_subdirectory(executor)
